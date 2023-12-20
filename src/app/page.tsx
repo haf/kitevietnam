@@ -18,7 +18,7 @@ export default function Home() {
         </video>
       </div>
 
-      <h1 className="text-8xl text-center py-16">Contact us</h1>
+      <h1 className="text-5xl sm:text-8xl text-center py-16">Contact us</h1>
 
       <div>
         <h2>Contact details</h2>
@@ -26,8 +26,9 @@ export default function Home() {
           +84 33 33 23 350
         </p>
       
-        <p>or</p>
       </div>
+
+      <p className='text-lg my-4'>or</p>
 
       <form className="flex flex-col items-center w-1/2 my-8">
         <input className="p-2 mb-4 w-full" type="text" placeholder="Name" />
