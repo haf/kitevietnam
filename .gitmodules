@@ -1,0 +1,3 @@
+[submodule "rxdb"]
+	path = rxdb
+	url = git@github.com:pubkey/rxdb.git
